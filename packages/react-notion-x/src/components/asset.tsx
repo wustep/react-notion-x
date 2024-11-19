@@ -134,9 +134,9 @@ export function Asset({
     return null
   }
 
-  if (block.space_id) {
-    source = source.concat('&spaceId=', block.space_id)
-  }
+  // if (block.space_id) {
+  //   source = source.concat('&spaceId=', block.space_id)
+  // }
 
   let content = null
 
